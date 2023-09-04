@@ -132,13 +132,13 @@ const controlAddRecipe =async function(newRecipe){
 
 
 const init = function () {
-  bookmarksView.addHandlerRender(controlBookmarks)
+  bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipe);
   recipeView.addHandleUpdateServings(controlServings);
-  recipeView.addHanlerAddBookmark(controlAddBookmark)
+  recipeView.addHanlerAddBookmark(controlAddBookmark);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
-  addRecipeView.addHandlerUpload(controlAddRecipe)
+  addRecipeView.addHandlerUpload(controlAddRecipe);
   
   // resultsView.addHandlerRender(resultsView)
 };
